@@ -1,0 +1,27 @@
+.last-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    padding: 30px;
+}
+
+.last-section-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+.last-section-div h3{
+    font-size: 34px;
+}
+
+.last-section-div1 {
+    display: flex;
+    gap: 20px;
+}
+
+.last-section-img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

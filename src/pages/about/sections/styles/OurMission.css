@@ -1,0 +1,17 @@
+.mission {
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mission-div {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    
+}
+.mission-div h2{
+    font-size: 34px;
+    font-weight: 700;
+} 

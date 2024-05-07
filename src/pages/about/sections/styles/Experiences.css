@@ -1,0 +1,24 @@
+.experiences{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.experiences-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.experiences-div1 h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.experiences-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.experiences-div2 h4{
+    font-size: 20px;
+    font-weight: 700;
+}

@@ -1,0 +1,20 @@
+.color-line {
+    background-color: var(--primary);
+    width: 75px;
+    height: 2px;
+}
+
+.main-btn {
+    background-color: var(--primary);
+    font-size: 14px;
+    color: white;
+    padding: 14px 40px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+}
+
+.main-btn:hover{
+    cursor: pointer;
+    background-color: var(--secondary);
+}

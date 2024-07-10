@@ -3,9 +3,9 @@ import './styles/PageHero.css'
 import LogoImg from '../assets/logo-white.png'
 import {NavLink } from 'react-router-dom'
 
-function PageHero({title}:any) {
+function PageHero({title,img}:any) {
   return (
-    <section className="heroimg">
+    <section className="pageheroimg" style={{backgroundImage:img}}>
     <div className="pagehero">
         <header className="header-class">
             <img src={LogoImg} alt="logo" height="40" />

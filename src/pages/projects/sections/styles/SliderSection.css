@@ -1,0 +1,22 @@
+.projsec{
+    padding: 50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.projsec-div{
+   display: flex;
+   flex-direction: column;
+   gap: 20px
+    
+}
+.projsec-div h6 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.projsec-div h2 {
+    font-size: 34px;
+    font-weight: 700;
+}

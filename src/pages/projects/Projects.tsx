@@ -1,11 +1,14 @@
 import React from 'react'
-import Slider from '../../components/Slider'
-import SliderData1 from '../../slider-data/SliderData1'
+import Footer from '../../components/Footer'
+import PageHero from '../../components/PageHero'
+import SliderSection from './sections/SliderSection'
 
 function Project() {
   return (
     <div>
-      <Slider SlideData={SliderData1}/>
+      <PageHero title = " Our Projects"/>
+      <SliderSection/>
+      <Footer/>
     </div>
   )
 }

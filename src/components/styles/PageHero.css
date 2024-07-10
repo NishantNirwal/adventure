@@ -1,5 +1,4 @@
-.heroimg {
-    background-image: url(../../assets/hero-bg.jpg);
+.pageheroimg {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
